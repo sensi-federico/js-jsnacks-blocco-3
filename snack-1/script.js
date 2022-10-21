@@ -62,21 +62,21 @@ const cars = [
 // Infine stampa separatamente i 3 array.
 
 const benzina = cars.filter(car => {
-    if (car.alimentazione === 'benzina') {
+    if (car.alimentazione === 'Benzina') {
         return true;
     }
     return false;
 });
 
 const diesel = cars.filter(car => {
-    if (car.alimentazione === 'diesel') {
+    if (car.alimentazione === 'Diesel') {
         return true;
     }
     return false;
 });
 
 const metano = cars.filter(car => {
-    if (car.alimentazione === 'metano') {
+    if (car.alimentazione === 'Metano') {
         return true;
     }
     return false;
